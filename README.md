@@ -2,17 +2,18 @@
 
 This is a template for your final project documentation.  Please replace <content like this> with your own.  For help with the syntax of Github markdown, visit: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
-*Name:*  <Your Name>  
+*Name:*  Joyce Choi
 
-*Date:* <Date>
+*Date:* 12/12/2017
 
-## Project:  < Name of your Project / Device Goes here >
+## Project:  Clothes Forecast
 
-< 2 - 3 sentence brief description / abstract of your project>
+This is an analog clock representation of what to wear based on the weather outside. There are two clock handles that point towards outerwear and acessories based on precipitation, respectively. It also has a digital LCD display component that displays the temperature outside at the moment which is updated every 10 minutes based on information pulled online from a weather API.
 
 ### Detailed Project Description
 
 < Explain the "what" of your project:   What is it?   What does it do?   Explain the "why" of your project:  What problem is it responding to?  What issue is it engaging?   
+
 
 ### Technical Description
 
