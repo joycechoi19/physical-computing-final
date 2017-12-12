@@ -13,11 +13,17 @@ This is an analog clock representation of what to wear based on the weather outs
 ### Detailed Project Description
 
 < Explain the "what" of your project:   What is it?   What does it do?   Explain the "why" of your project:  What problem is it responding to?  What issue is it engaging?   
+Clothes Forecast is an analog clock-like visualization of what to wear based on weather conditions outside. It has two clock needles, one that tells what clothes/outerwear to wear based on the windchill temperature (t-shirt weather, light jacket weather, heavy sweater weather, parka weather), and the other needle that points to the sunny (sunglasses), rainy (umbrella), or snow (snow boots) based on the precipitation outside. 
 
+Each morning when I got up, the first thing that I would check on my phone used to be my weather app. However, this wasn't just checking the weather--it was getting pulled in my all of the notifications to my phone and so checking the weather was the first thing that chained me to technology from the start of the morning. The design of this clock was to remove me from mindless addiction of my phone from the start of my day, thus freeing up my morning. Having this analog-like clock interface to check the weather was a very different experience for me because I had always checked the weather through a digital interface either through an app or through the T.V. on the news. It had an analog, aesthetically pleasing interface but it also had a digital display that would let me know the temperature as well so I could associate the temperature with the suggestions the clock was giving.
+
+Also, when I used to check my phone app for the weather, I would see a temperature like 47 degrees and would still not be completely sure what that meant in terms of translation into what I'm wearing. I would even go to my window to touch it to see what type of temperature the numbers I would be seeing would translate into. So this removes that step and is actually faster than me pulling out my phone to check the app as well since it's constantly running in the background and updating every ten minutes.
 
 ### Technical Description
 
 < Explain the "how" of your project.  What are the hardware components?  What are the software components?  How do they interact with each other? >
+For the hardware, I used a particle photon redboard, two servo motors, a SparkFun LCD display, two 3D printed clock handles, and a laser cut wooden frame. 
+The software components was TODO.
 
 < You can also explain the development process here >
 
