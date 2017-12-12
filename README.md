@@ -49,6 +49,8 @@ You should link to your full code, either included in the repository (e.g. [my_c
 
 < include photos of your device >
 
+https://stackoverflow.com/questions/34341808/is-there-a-way-to-add-a-gif-to-a-markdown-file
+
 ### Evaluation / Reflection
 
 < What is your own evaluation of your project?   What did you learn through this project?  What would you do differently in the future? >
