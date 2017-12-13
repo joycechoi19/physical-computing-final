@@ -21,17 +21,18 @@ Also, when I used to check my phone app for the weather, I would see a temperatu
 
 ### Technical Description
 
-< Explain the "how" of your project.  What are the hardware components?  What are the software components?  How do they interact with each other? >
+Explain the "how" of your project.  What are the hardware components?  What are the software components?  How do they interact with each other?
 For the hardware, I used a particle photon redboard, two servo motors, a SparkFun LCD display, two 3D printed clock handles, and a laser cut wooden frame. 
-The software components was TODO.
+For the software, I wrote a particle webhook that pulls weather information from a weather API from weather.gov (the National Weather service). The firmware code is what ties together the hardware and software. Using the photon, I wrote arduino firmware code that updates the hardware components (moves the servo's to the correct positions and updates the temperature on the LCD display).
 
-< You can also explain the development process here >
-
+You can also explain the development process here
+To laser cut the frame, I first designed the frame using Adobe Illustrator, and then used the laser cutter in the CoLab. I made many drafts of this design to make the design as aesthetically pleasing as possible and make the "clock" seem balanced since the number of items that I originally had to put on it was 7 items (just for the clothing/accessories items) but then when I thought of adding in the LCD display, there were 8 items so I was able to make a more balanced layout. For the 3D printed needles, I used the 3D printers in the CoLab as well. For the code, for servo control, I used some of my code from my midterm project because I had created a light switch using a servo. When first turned on, the needle's make a loop around the clock to show the ranges that they move in before pointing to the result based on the current weather. For the webhook, I wrote some code in C++ and created web interfaces using Javascript before settling on using the webhook integration through the particle console. For the firmware code, I processed the weather information from the weather API by looking at windchill temperature (which is more similar to how one would feel the temperature outside rather than the normal temperature) to determine the outerwear to indicate, and relative humidity and temperature to indicate the right accessory based on precipitation. 
 
 #### Hardware Wiring Diagram
 
 ![Wiring Diagram](images/WiringDiagram.png)
 < Insert Picture and explanation of Your Wiring Diagram here >
+
 
 #### Code
 
