@@ -22,9 +22,8 @@
 
 #### Hardware Wiring Diagram
 
-![Wiring Diagram](images/WiringDiagram.png)
-< Insert Picture and explanation of Your Wiring Diagram here >
-
+![Wiring Diagram](images/FinalProjectDiagram.jpg)
+This is a wiring diagram of the hardware components. There are two servos motors and one LCD display that are wired to a Photon Redboard through a breadboard. The LCD Backpack board is soldered onto the LCD display in my actual device. 
 
 #### Code
 ```c++
@@ -56,7 +55,7 @@ myservo.write(90); //with the value being different based on the appropriate out
   
   It also touches upon the concept of how people have little say over their actions now. They are very much governed or heavily influenced by suggestions given by technology so it is almost as if we are just biometric machines that just do what the technology suggests us to do. Which makes one question how much autonomy we have left and whether more technology/innovation is really as "freeing" in terms of mindspace and time as we used to think with technological innovations such as the washing machine.
 
-![Outer_enclosure](outer_enclosure.jpg)
+![Outer_enclosure](images/outer_enclosure.jpg)
 
 Video demo:
 https://www.youtube.com/watch?v=RB5mpC5Y8H0&feature=share
