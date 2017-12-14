@@ -26,10 +26,6 @@
 This is a wiring diagram of the hardware components. There are two servos motors and one LCD display that are wired to a Photon Redboard through a breadboard. The LCD Backpack board is soldered onto the LCD display in my actual device. 
 
 #### Code
-```c++
-//Multiline
-bool photon_fun = TRUE;
-```
 Link to my code (shared revision in particle IDE): https://go.particle.io/shared_apps/5a2b11995977912c3700199d
 Here are some significant lines from my code. 
 
